@@ -72,11 +72,11 @@ public class WFCManager : MonoBehaviour
     }
     void Update()
     {
-        // if(Input.anyKeyDown)
-        // {
-        //     Collapse();
-        //     DrawMap();
-        // }
+        if(Input.anyKeyDown)
+        {
+            Collapse();
+            DrawMap();
+        }
     }
     private void Assign(Vector2Int pos, int moduleID)
     {
