@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9aa2fd590f3f5e48b05d94749451ec3, type: 3}
+  m_Name: Tree
+  m_EditorClassIdentifier: 
+  id: 2
+  upConnections: 0000000002000000080000000900000005000000
+  downConnections: 0000000002000000060000000700000005000000
+  rightConnections: 0000000002000000070000000900000004000000
+  leftConnections: 0000000002000000060000000800000004000000
+  tile: {fileID: 11400000, guid: 9f5c271284cec6e49a72bc99bffd3f20, type: 2}
